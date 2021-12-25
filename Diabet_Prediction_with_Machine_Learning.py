@@ -53,7 +53,7 @@ pd.set_option('display.expand_frame_repr', False)
 
 #################### Loading the Dataset ####################
 def load_diabets():
-    data = pd.read_csv(r"C:\Users\WIN\OneDrive\Masaüstü\DSMLBC\datasets\diabetes.csv")
+    data = pd.read_csv("...diabetes.csv")
     return data
 df = load_diabets()
 
